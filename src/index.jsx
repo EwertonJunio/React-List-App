@@ -7,7 +7,7 @@ import store from "./app-store.js";
 const TodoApp = () => {
   return (
     <Provider store={store}>
-      <MainView class="main-view" />
+      <MainView class="m-view" />
     </Provider>
   );
 };
